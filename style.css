@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(99, 96, 96, 0.24);
+    font-family: helvetica;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+form {
+    text-align: center;
+    background-color: aqua;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px grey;
+    font-size: 1.5rem;
+}
+
+#userInput {
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#submit {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgba(99, 96, 96, 0.24)
+}
+
+#result {
+    font-size: 1.5rem;
+}
